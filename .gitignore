@@ -1,0 +1,88 @@
+
+# build files
+openFrameworks.a
+openFrameworksDebug.a
+openFrameworksUniversal.a
+libs/openFrameworksCompiled/lib/*/*
+!libs/openFrameworksCompiled/lib/*/.gitkeep
+
+# rule to avoid non-official apps going into git
+# see apps/.gitignore
+apps/*
+saves/*
+
+#########################
+# general
+#########################
+DerivedData/*
+DerivedData/
+[Bb]uild/
+[Oo]bj/
+*.o
+examples/**/[Dd]ebug*/
+examples/**/[Rr]elease*/
+*.mode*
+*.app/
+*.iorec
+*.pyc
+.svn/
+*.log
+*.cpp.eep
+*.cpp.elf
+*.cpp.hex
+
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+# XCode 4
+xcuserdata
+*.xcworkspace
+xcshareddata/
+
+# OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
+
+# Folder config file
+Desktop.ini
+openFrameworksCompiled/
+/**/bin/*.exe
+/**/bin/*.exp
+/**/bin/*.lib
+/**/bin/*.dll
+*.opendb
+
+*.VC.db
+
+# Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+*.psd 
+*.obj
+*.sdf
+obj/
+*.tlog
+*.opensdf
+*.suo
+bin/*.exp
+bin/*.lib
+*.dSYM/
+
